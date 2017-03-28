@@ -81,6 +81,7 @@ body a {
 .logo {
     float: left;
     margin-top: 0.25em;
+    margin-left: 3em;
 }
 
 .logo a {
@@ -94,6 +95,11 @@ body a {
 
 .logo320 {
     display: none;
+}
+
+.nav_sthef {
+    margin-right: 3em;
+    margin-top: 0.9em;
 }
 
 
@@ -235,7 +241,7 @@ nav a#pull {
         top: 10px;
     }
     nav a#pull img {
-        margin-right: 2%;
+        margin-right: -35px;
     }
     .top-nav ul li a {
         color: #2C3E50;
@@ -1004,7 +1010,7 @@ footer img {
     width: 27px;
     height: 27px;
     display: inline-block;
-    background: url(../images/social-icons.png) no-repeat 0px 0px;
+    font-size: 33px;
 }
 
 .footer-social-icons li a:hover {
@@ -1232,6 +1238,15 @@ p.copy a:hover {
 /*-----768px-mediaquries----*/
 
 @media (max-width:768px) {
+    .hero_image {
+        display: block !important;
+    }
+    #funcionalidades {
+        padding-top: 0px !important;
+    }
+    #video_contenedor {
+        display: none;
+    }
     .divice-demo img {
         width: 57%;
     }
